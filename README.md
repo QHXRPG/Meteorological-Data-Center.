@@ -1,2 +1,3 @@
 # Meteorological-Data-Center.
 Implementation of a meteorological data center based on C++ and Oracle.
+The Nanjing Meteorological Bureau has hundreds of observation systems and operational systems, generating observation data and service products that are scattered across various systems, making it inconvenient to share. The function of the data center is to collect data from various operational systems, process it, and store it uniformly in an Oracle database. Operational systems can directly connect to the Oracle database to query data using SQL statements, or they can access data through data access interfaces.
